@@ -28,7 +28,7 @@
       "median_eccentricity": 0.7515518617730403
     }
   },
-  "note": "Only reference annotations were measured. No neural restoration or segmentation experiment was completed.",
+  "note": "Reference-annotation audit only; restoration results are reported separately in restoration_summary.json.",
   "archive_sha256": {
     "images.zip": "6f30a5d4fe38c928ded972704f085975f8dc0d65d9aa366df00e5a9d449fddd7",
     "masks.zip": "f9e6043d8ca56344a4886f96a700d804d6ee982f31e2b2cd3194af2a053c2710",

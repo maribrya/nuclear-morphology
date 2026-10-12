@@ -107,7 +107,7 @@ def main():
             "connectivity": 8,
             "threshold": threshold,
             "splits": {},
-            "note": "Only reference annotations were measured. No neural restoration or segmentation experiment was completed.",
+            "note": "Reference-annotation audit only; restoration results are reported separately in restoration_summary.json.",
         }
         for s, items in data.items():
             complete = [o for o in items if not o["border"]]

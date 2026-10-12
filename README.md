@@ -1,5 +1,6 @@
 # Nuclear morphology
 
+[![Check results](https://github.com/maribrya/nuclear-morphology/actions/workflows/check.yml/badge.svg)](https://github.com/maribrya/nuclear-morphology/actions/workflows/check.yml)
 Maria Bryantseva · October 2026 · Unpublished research
 
 Does restoring a blurred microscopy image help detect elongated nuclei as well as typical ones?

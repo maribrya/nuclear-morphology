@@ -1,0 +1,37 @@
+{
+  "definition": "eccentricity >= training 90th percentile; nuclei touching image boundary excluded",
+  "connectivity": 8,
+  "threshold": 0.8773441177908994,
+  "splits": {
+    "training": {
+      "images": 100,
+      "nuclei_total": 11999,
+      "nuclei_complete": 10002,
+      "rare_count": 1001,
+      "median_area": 652.0,
+      "median_eccentricity": 0.7539597373082236
+    },
+    "validation": {
+      "images": 50,
+      "nuclei_total": 5896,
+      "nuclei_complete": 4928,
+      "rare_count": 506,
+      "median_area": 650.0,
+      "median_eccentricity": 0.7558157477797692
+    },
+    "test": {
+      "images": 50,
+      "nuclei_total": 5720,
+      "nuclei_complete": 4816,
+      "rare_count": 498,
+      "median_area": 654.5,
+      "median_eccentricity": 0.7515518617730403
+    }
+  },
+  "note": "Only reference annotations were measured. No neural restoration or segmentation experiment was completed.",
+  "archive_sha256": {
+    "images.zip": "6f30a5d4fe38c928ded972704f085975f8dc0d65d9aa366df00e5a9d449fddd7",
+    "masks.zip": "f9e6043d8ca56344a4886f96a700d804d6ee982f31e2b2cd3194af2a053c2710",
+    "metadata.zip": "a2c1f900bed9ba92a99553efd4c2ae98598433691c7401d818653ab61110deb2"
+  }
+}
